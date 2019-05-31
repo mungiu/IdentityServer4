@@ -1,0 +1,280 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+body {
+  margin-top: 65px;
+  
+}
+
+
+/*bootstrap reset*/
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.alert {
+    border-radius: 0;
+}
+
+.container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-sm-1,
+.col-xs-2, .col-sm-2, .col-md-2, .col-sm-2,
+.col-xs-3, .col-sm-3, .col-md-3, .col-sm-3,
+.col-xs-4, .col-sm-4, .col-md-4, .col-sm-4,
+.col-xs-5, .col-sm-5, .col-md-5, .col-sm-5,
+.col-xs-6, .col-sm-6, .col-md-6, .col-sm-6,
+.col-xs-7, .col-sm-7, .col-md-7, .col-sm-7,
+.col-xs-8, .col-sm-8, .col-md-8, .col-sm-8,
+.col-xs-9, .col-sm-9, .col-md-9, .col-sm-9,
+.col-xs-10, .col-sm-10, .col-md-10, .col-sm-10,
+.col-xs-11, .col-sm-11, .col-md-11, .col-sm-11,
+.col-xs-12, .col-sm-12, .col-md-12, .col-sm-12 {
+    position: relative;
+    height: 100%;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.footer {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top: none;
+}
+
+.panel {
+    border: none;
+}
+
+
+
+
+
+.navbar-header {
+  position: relative;
+  top: -4px;
+}
+.navbar-brand > .icon-banner {
+  position: relative;
+  top: -2px;
+  display: inline;
+}
+.icon {
+  position: relative;
+  top: -10px;
+}
+.logged-out iframe {
+  display: none;
+  width: 0;
+  height: 0;
+}
+.page-consent .client-logo {
+  float: left;
+}
+.page-consent .client-logo img {
+  width: 80px;
+  height: 80px;
+}
+.page-consent .consent-buttons {
+  margin-top: 25px;
+}
+.page-consent .consent-form .consent-scopecheck {
+  display: inline-block;
+  margin-right: 5px;
+}
+.page-consent .consent-form .consent-description {
+  margin-left: 25px;
+}
+.page-consent .consent-form .consent-description label {
+  font-weight: normal;
+}
+.page-consent .consent-form .consent-remember {
+  padding-left: 16px;
+}
+.grants .page-header {
+  margin-bottom: 10px;
+}
+.grants .grant {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+.grants .grant img {
+  width: 100px;
+  height: 100px;
+}
+.grants .grant .clientname {
+  font-size: 140%;
+  font-weight: bold;
+}
+.grants .grant .granttype {
+  font-size: 120%;
+  font-weight: bold;
+}
+.grants .grant .created {
+  font-size: 120%;
+  font-weight: bold;
+}
+.grants .grant .expires {
+  font-size: 120%;
+  font-weight: bold;
+}
+.grants .grant li {
+  list-style-type: none;
+  display: inline;
+}
+.grants .grant li:after {
+  content: ', ';
+}
+.grants .grant li:last-child:after {
+  content: '';
+}
+
+.welcome-page, .logged-out {
+    margin: 10vw;
+}
+/*login*/
+.login-page {
+    background-image: url('../loginbackground.jpg');
+    background-position-y: -15vh;
+    background-size: cover;
+    height: 100vh;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.wrapperB {
+    background: rgba(0,0,0,0.8);
+    position: relative;
+    width: 56vw;
+    height: 70vh;
+    margin: 0 auto;
+    margin-top: 15vh;
+   
+}
+.background {
+    width: 56vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    
+}
+    .back-header i  {
+        font-family:fontawesome !important;
+        color:blue !important;
+    }
+    .background button {
+        width: 10vw;
+        text-align: center;
+    }
+
+.left,
+.right {
+    width: 50%;
+}
+
+.left {
+    float: left;
+    text-align: center;
+   
+}
+
+.right {
+    float: right;
+    text-align: center;
+    margin:-1vw;
+}
+
+.back-header {
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    color: #e65151;
+    font-weight: bolder;
+    font-size: 2vw;
+    text-align: center;
+    width: 28vw;
+    padding: 0 2vw;
+}
+.back-p {
+    color: #fafafa;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 2vw;
+    width: 28vw;
+}
+
+.form-container {
+    position: absolute;
+    width: 26vw;
+    height: 80vh;
+    top: -5vh;
+    left: 1vw;
+    background-color: white;
+    border-top: 5px solid #f5ba1a;
+    box-shadow: 9px 13px 16px 0px rgba(0,0,0,0.75);
+}
+
+
+.sign-up,
+.login {
+    margin: 0 2vw;  
+}
+
+.log {
+    height: 6vh;
+}    
+
+.buttons {
+    margin-top: -5vh;
+    height:6vh;
+   
+}
+
+
+.form-header {
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    color: #FC7D5F;
+    font-weight: bold;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+
+.input-group {
+    margin-bottom: 1vw;
+}
+
+.forgot {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+    .forgot:hover {
+        color: #FC7D5F;
+        text-decoration: underline;
+    }
+

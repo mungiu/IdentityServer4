@@ -17,6 +17,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="~/favicon.ico" />
     <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    
+    
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -30,8 +32,8 @@
                 </button>
                 <a href="~/">
                     <span class="navbar-brand">
-                        <img src="~/icon.png" class="icon-banner">
-                        IdentityServer4
+                        <img src="~/icon.png" class="icon-banner" >
+                        IdentityServer4 
                     </span>
                 </a>
             </div>
@@ -48,9 +50,9 @@
                 </ul>
             }
             <!--else
-    {
-        <li role="presentation" class="active"><a asp-controller="Account" asp-action="Login">Sign In</a></li>
-    }-->
+            {
+                <li role="presentation" class="active"><a asp-controller="Account" asp-action="Login">Sign In</a></li>
+            }-->
         </div>
     </div>
 
@@ -60,6 +62,7 @@
 
     <script src="~/lib/jquery/jquery.js"></script>
     <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
     @RenderSection("scripts", required: false)
 </body>
 </html>
