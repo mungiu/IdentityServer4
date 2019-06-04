@@ -181,14 +181,21 @@ button:hover {
     align-items:center;
     
 }
-    .back-header i  {
-        font-family:fontawesome !important;
-        color:blue !important;
-    }
-    .background button {
-        width: 10vw;
-        text-align: center;
-    }
+.signupText{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:justify;
+    font-size:1vw;
+    margin-top:20vh;
+}
+.telNo {
+    font-size: 2.5vw;
+    text-align: center;
+    color: #FC7D5F;
+}
+.background button {
+    width: 10vw;
+    text-align: center;
+}
 
 .left,
 .right {
@@ -241,7 +248,7 @@ button:hover {
 
 .sign-up,
 .login {
-    margin: 0 2vw;  
+    margin: 0 2vw;
 }
 
 .log {
